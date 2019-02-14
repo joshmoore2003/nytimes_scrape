@@ -4,7 +4,7 @@
 - Mongo Scraper is a web application that utilizes Mongoose and Cheerio to scrape articles from New York Times, and allows users to make notes on each article and allows them to save the article.
 
 ## Live Site
-- 
+- https://newyorktimes-scrape.herokuapp.com/index.html
 
 ## Technologies Used
 - Node.js
