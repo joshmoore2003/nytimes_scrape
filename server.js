@@ -156,9 +156,9 @@ app.put("/delete/:id", function(req, res) {
     });
 });
 
-var MONGOLAB_GREEN_URI = process.env.MONGOLAB_GREEN_URI || "mongodb://localhost/Article";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/MongoHeadlines";
 
-mongoose.connect(MONGOLAB_GREEN_URI);;
+mongoose.connect(MONGODB_URI);
 
 
 // Start the server
